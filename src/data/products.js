@@ -1,0 +1,123 @@
+export const categories = [
+  "All",
+  "Breakfast",
+  "Snacks",
+  "Beverages",
+  "Dairy",
+  "Staples"
+];
+
+export const products = [
+  {
+    id: 1,
+    name: "Protein Granola",
+    category: "Breakfast",
+    price: 299,
+    calories: 220,
+    protein: 18,
+    sugar: 4,
+    rating: 4.8,
+    badge: "High Protein",
+    unit: "400 g",
+    image: "https://images.unsplash.com/photo-1642339800099-921df1a0a958?auto=format&fit=crop&q=82&w=1000",
+    description: "Crunchy granola with a protein-focused recipe for quick breakfasts."
+  },
+  {
+    id: 2,
+    name: "Almond Butter",
+    category: "Staples",
+    price: 349,
+    calories: 196,
+    protein: 7,
+    sugar: 2,
+    rating: 4.7,
+    badge: "No Added Sugar",
+    unit: "250 g",
+    image: "https://images.unsplash.com/photo-1654747780295-aa29ff49f5c0?auto=format&fit=crop&q=82&w=1000",
+    description: "Creamy roasted almond spread for toast, oats and smoothies."
+  },
+  {
+    id: 3,
+    name: "Greek Yogurt",
+    category: "Dairy",
+    price: 89,
+    calories: 110,
+    protein: 10,
+    sugar: 5,
+    rating: 4.6,
+    badge: "Protein Pick",
+    unit: "150 g",
+    image: "https://images.unsplash.com/photo-1722607571891-7ab5396a1b83?auto=format&fit=crop&q=82&w=1000",
+    description: "Thick yogurt with a simple, protein-rich profile."
+  },
+  {
+    id: 4,
+    name: "Roasted Chickpeas",
+    category: "Snacks",
+    price: 129,
+    calories: 170,
+    protein: 9,
+    sugar: 1,
+    rating: 4.7,
+    badge: "Low Sugar",
+    unit: "200 g",
+    image: "https://c.pxhere.com/photos/11/6c/chickpeas_organic_food_healthy_vegan_vegetarian_raw_natural-1368952.jpg!d",
+    description: "Crunchy roasted chickpeas for a convenient snack."
+  },
+  {
+    id: 5,
+    name: "Cold Brew Coffee",
+    category: "Beverages",
+    price: 179,
+    calories: 90,
+    protein: 2,
+    sugar: 2,
+    rating: 4.5,
+    badge: "Low Sugar",
+    unit: "250 ml",
+    image: "https://images.unsplash.com/photo-1504753793650-d4a2b783c15e?auto=format&fit=crop&q=82&w=1000",
+    description: "Smooth cold brew with a light, refreshing finish."
+  },
+  {
+    id: 6,
+    name: "Oats & Seeds Mix",
+    category: "Breakfast",
+    price: 219,
+    calories: 190,
+    protein: 8,
+    sugar: 3,
+    rating: 4.4,
+    badge: "Daily Fuel",
+    unit: "500 g",
+    image: "https://images.unsplash.com/photo-1720356778282-dff1bd1a171e?auto=format&fit=crop&q=82&w=1000",
+    description: "A breakfast-ready blend inspired by oats and whole-food ingredients."
+  },
+  {
+    id: 7,
+    name: "Dark Chocolate 70%",
+    category: "Snacks",
+    price: 149,
+    calories: 210,
+    protein: 4,
+    sugar: 8,
+    rating: 4.8,
+    badge: "70% Cocoa",
+    unit: "100 g",
+    image: "https://images.unsplash.com/photo-1772985740037-5b07044aee81?auto=format&fit=crop&q=82&w=1000",
+    description: "Rich dark chocolate for an occasional treat."
+  },
+  {
+    id: 8,
+    name: "Soy Milk",
+    category: "Dairy",
+    price: 115,
+    calories: 100,
+    protein: 7,
+    sugar: 3,
+    rating: 4.3,
+    badge: "Plant Based",
+    unit: "1 L",
+    image: "https://c.pxhere.com/photos/cf/6a/beans_beverage_bowl_delicious_drink_food_healthy_legume-1538005.jpg!d",
+    description: "A smooth plant-based milk for cereals, coffee and drinks."
+  }
+];

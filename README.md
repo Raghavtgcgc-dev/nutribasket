@@ -1,5 +1,7 @@
 # 🥗 NutriBasket
 
+![NutriBasket Home](./screenshots/nutribasket-home.png)
+
 NutriBasket is a full-stack food e-commerce web application built with React, Vite and Supabase.
 
 It allows users to explore food products, check nutrition information, manage their cart and wishlist, create an account, place orders and track order status.
